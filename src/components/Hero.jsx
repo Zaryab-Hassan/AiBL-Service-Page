@@ -49,7 +49,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="lg:w-full mx-6 lg:flex h-[calc(100vh-5rem)] bg-gradient-to-bl from-indigo-400 to-purple-600">
+    <section className="lg:w-full mx-6 lg:flex h-[calc(100vh-5rem)] content-center sm:content-normal bg-gradient-to-bl from-indigo-400 to-purple-600">
       <div className="w-screen mx-auto flex flex-col justify-end p-8 lg:w-1/2">
         <div className=" lg:mb-8">
           <h1 className="text-4xl font-bold text-white mb-4">

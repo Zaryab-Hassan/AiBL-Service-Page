@@ -1,7 +1,7 @@
 const TrustCard = (props) => {
   const { serviceDetails } = props;
   return (
-    <div className="flex flex-col mx-16 sm:flex-row sm:gap-16 sm:mx-32 border rounded-2xl shadow-lg px-8 py-6 sm:py-16">
+    <div className="flex flex-col mx-4 sm:flex-row sm:gap-16 sm:mx-32 border rounded-2xl shadow-lg px-8 py-6 sm:py-16">
       <div className="flex flex-col gap-8 w-full sm:w-1/2">
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold  my-4">

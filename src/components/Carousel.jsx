@@ -133,7 +133,7 @@ const Carousel = () => {
     return(
         <div className="relative flex items-center justify-center sm:min-h-[750px]">
         <button
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 -ml-6 pb-4 pr-1 text-indigo-400 text-6xl rounded-full hover:bg-indigo-400 hover:text-white w-12 h-12 flex items-center justify-center shadow-xl"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 -ml-2 pb-4 pr-1 text-indigo-400 text-6xl rounded-full hover:bg-indigo-400 hover:text-white w-12 h-12 flex items-center justify-center shadow-xl"
           onClick={prevCard}
         >
           &#8249; {/*Left arrow */}
@@ -146,7 +146,7 @@ const Carousel = () => {
         </div>
 
         <button
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 -mr-6 pb-4 pl-1 text-indigo-400 text-6xl rounded-full hover:bg-indigo-400 hover:text-white w-12 h-12 flex items-center justify-center shadow-xl"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 -mr-2 pb-4 pl-1 text-indigo-400 text-6xl rounded-full hover:bg-indigo-400 hover:text-white w-12 h-12 flex items-center justify-center shadow-xl"
           onClick={nextCard}
         >
           &#8250; {/*Right arrow */}

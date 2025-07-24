@@ -8,7 +8,7 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className = "flex flex-col items-center justify-center min-h-screen bg-gray-50">
+    <div className = "flex flex-col overflow-hidden items-center justify-center min-h-screen bg-gray-50">
       <Header/>
       <Hero/>
       <WhyChooseUs/>
